@@ -20,7 +20,11 @@ public class Main {
             result += num1 * num2;
         }
 
+<<<<<<< HEAD
         if (result == 0) throw new IllegalArgumentException("No valid multiplications found in the input string!");
+=======
+        if (result == 0) throw new IllegalArgumentException();
+>>>>>>> origin/main
         return result;
     }
 
